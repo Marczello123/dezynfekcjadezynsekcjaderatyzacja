@@ -13,16 +13,46 @@ import Contact from './components/Contact.vue'
 <About />
 <Services />
 <Contact />
-
+<footer class="site-footer">
+    <p>
+      Copyright © 2026 Dezynfekcja Dezynsekcja Deratyzacja | 
+      <a href="https://dddmobil.com.pl/polityka-prywatnosci/" target="_blank" rel="noopener">
+        Polityka prywatności
+      </a>
+    </p>
+  </footer>
 </template>
 
 <style scoped>
-body {
+html, body {
   margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
   font-family: Arial, sans-serif;
 }
-main {
-  margin-top: 80px;
+
+/* Główny kontener – tylko dla treści POD hero */
+.main-content {
+  margin-top: 80px; /* miejsce na fixed navbar – dostosuj do jego wysokości */
+  background: white; /* po zscrollowaniu – białe tło */
+  position: relative;
+  z-index: 1;
+}
+
+/* Stopka */
+.site-footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #eee;
+  font-size: 14px;
+  color: #666;
+}
+
+.site-footer a {
+  color: #007bff;
+  text-decoration: underline;
 }
 
 </style>
