@@ -4,6 +4,8 @@ import Hero from './components/Hero.vue'
 import About from './components/About.vue'
 import Services from './components/Services.vue'
 import Contact from './components/Contact.vue'
+// import TrustedPartners from './components/TrustedPartners.vue'
+
 
 </script>
 
@@ -13,10 +15,12 @@ import Contact from './components/Contact.vue'
 <About />
 <Services />
 <Contact />
+<!-- <TrustedPartners /> -->
+
 <footer class="site-footer">
     <p>
       Copyright © 2026 Dezynfekcja Dezynsekcja Deratyzacja | 
-      <a href="https://dddmobil.com.pl/polityka-prywatnosci/" target="_blank" rel="noopener">
+      <a href="https://proderat.com.pl/polityka-prywatnosci/" target="_blank" rel="noopener">
         Polityka prywatności
       </a>
     </p>
