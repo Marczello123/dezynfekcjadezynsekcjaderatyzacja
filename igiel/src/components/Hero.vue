@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <section id="hero" class="hero" >
     
     <video
       v-if="!isMobile"
@@ -55,9 +55,14 @@
 <style scoped>
 .hero {
   position: relative;
-  height: 80vh;                
+  height: 100vh;
   /* margin-top: 80px;             */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
+
+  color: white;
 
 
 }
@@ -151,5 +156,21 @@
 .cta:hover {
   background: #d62828;
 }
+
+
+/* :root {
+  --header-height: 100px;
+}
+
+.site-header {
+  height: var(--header-height);
+}
+
+.hero {
+  min-height: calc(100vh - var(--header-height));
+  margin-top: var(--header-height);
+} */
+
+
 
 </style>

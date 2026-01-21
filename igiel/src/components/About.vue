@@ -40,6 +40,7 @@
   width: 80px;
   height: 4px;
   background: #e63946;
+  background: #d62828;
   margin: 1rem auto 0;
   border-radius: 2px;
 }
