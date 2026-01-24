@@ -2,6 +2,7 @@
 import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
 import About from './components/About.vue'
+import TrustedPartners from './components/TrustedPartners.vue'
 import Services from './components/Services.vue'
 import Contact from './components/Contact.vue'
 </script>
@@ -11,6 +12,7 @@ import Contact from './components/Contact.vue'
   <main class="main-content">
     <Hero />
     <About />
+    <TrustedPartners />
     <Services />
     <Contact />
   </main>
