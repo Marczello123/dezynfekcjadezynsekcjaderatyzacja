@@ -59,6 +59,7 @@
   text-decoration: none;
   box-shadow: 0 10px 30px rgba(230, 57, 70, 0.4);
   transition: all 0.3s ease;
+  white-space: nowrap;
 }
 
 .cta-big:hover {
@@ -81,5 +82,18 @@
 .contact-info a {
   color: #e63946;
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .cta-big {
+    font-size: 1.4rem;
+    padding: 1.2rem 2rem;
+    gap: 0.75rem;
+  }
+  
+  .phone-icon-big {
+    width: 32px;
+    height: 32px;
+  }
 }
 </style>
