@@ -34,6 +34,24 @@
   padding: 5rem 1.5rem;
 }
 
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #d62828;
+  margin: 1rem auto 0;
+  border-radius: 2px;
+}
+
 .contact-content {
   text-align: center;
   max-width: 700px;
