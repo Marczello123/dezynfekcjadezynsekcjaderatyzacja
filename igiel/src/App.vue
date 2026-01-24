@@ -31,17 +31,28 @@ import Contact from './components/Contact.vue'
   padding: 0;
   box-sizing:border-box;
 }
+:root {
+  color-scheme: light;
+}
 html, body {
   margin: 0;
   padding: 0;
   width: 100%;
+  height: 100%;
   font-family: Arial, sans-serif;
+  background-color: transparent;
+}
+
+.main {
+  margin: 0;
+  padding: 0;
+  /* display: block; */
 }
 
 .main-content {
-  margin-top: 80px; 
+  margin: 0;
+  padding: 0;
   width: 100%;
-  background: white;
 }
 
 .site-footer {
@@ -56,4 +67,6 @@ html, body {
   color: #007bff;
   text-decoration: underline;
 }
+
+
 </style>

@@ -22,8 +22,15 @@
 
 <style scoped>
 .services {
-  padding: 4rem 0;
+  padding: 0;
+  margin: 0;
   background-color: white;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
 }
 
 .services-grid {

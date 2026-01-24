@@ -22,9 +22,16 @@
 
 <style scoped>
 .contact {
-  padding: 5rem 0;
+  padding: 0;
+  margin: 0;
   background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
   color: white;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 5rem 1.5rem;
 }
 
 .contact-content {

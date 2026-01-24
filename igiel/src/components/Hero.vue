@@ -68,7 +68,7 @@
 }
 @media (max-width: 768px) {
   .hero {
-    margin-top: 40px; 
+    margin-top: 0; 
     
   }
 }
@@ -86,17 +86,7 @@
 }
 
 
-/* alternatywa */
-/* .hero-video,
-.hero-fallback {
-  position: fixed;        
-  top: 0;                 
-  left: 0;
-  width: 100vw;           
-  height: 100vh;          
-  object-fit: cover;      
-  z-index: -2;            
-} */
+
 
 
 
