@@ -1,7 +1,6 @@
 <template>
   <section id="hero" class="hero" >
     
-    <!-- Fallback pod spodem – widać przy ładowaniu lub gdy video się nie odtworzy -->
     <div class="hero-fallback"></div>
 
     <video
@@ -118,7 +117,6 @@ onMounted(() => {
   z-index: 2;
 }
 
-/* Tekst i CTA */
 .hero-content {
   position: relative;
   z-index: 2;
@@ -146,7 +144,6 @@ onMounted(() => {
   max-width: 800px;
 }
 
-/* Przycisk / numer telefonu – jeden spójny element */
 .cta-phone {
   display: inline-flex;
   align-items: center;
